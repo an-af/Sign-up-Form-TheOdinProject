@@ -1,30 +1,37 @@
-# Sign-Up Form
+# Proyek Halaman Sign-out Sederhana
+*Bahasa Indonesia*
 
-## What is this project?
-This project is an implementation of [nama project dari The Odin Project]. It's a responsive sign-up form built using HTML, CSS, and JavaScript, created as a part of The Odin Project curriculum.
+### Pengantar
+ Proyek ini bertujuan untuk membangun antarmuka halaman sign-up / pendaftaran yang bersih, modern, dan responsif. Desainnya fokus pada pengalaman pengguna yang baik, dengan efek interaktif yang mulus seperti bayangan dan transisi saat kursor diarahkan
 
-## What features does it have?
-[x] A fully responsive sign-up form.
 
-[x] Simple input validation for better user experience.
+### Fitur Utama
 
-[x] Modern and minimalist design.
+1. **Desain Responsif**: Tampilan yang menyesuaikan dengan baik di perangkat desktop maupun seluler.
 
-## What technologies are used?
-- HTML: For the web page structure.
+2. **Efek Interaktif**: Kotak card register "terangkat" saat disentuh kursor, menciptakan pengalaman yang dinamis.
 
-- CSS: For styling and layout.
+3. **Gaya Terorganisir**: Menggunakan variabel CSS untuk manajemen warna yang mudah dan konsisten.
 
-- JavaScript: For interactivity and form validation.
+4. **Kode Semantik**: Menggunakan tag HTML yang tepat untuk struktur yang jelas.
 
-## How do you get it running?
-1. Clone this repository to your local machine:
+### Cara Menggunakan
 
-2. git clone *https://github.com/nama-user-kamu/nama-repo-kamu.git*
+1. **Salin Kode**: Salin seluruh kode dari dokumen HTML.
 
-3. Open the project folder in your preferred code editor.
+2. **Buat File**: Buat file baru bernama index.html (atau nama lain yang Anda sukai).
 
-4. Open index.html in your web browser.
+3. **Tempelkan Kode**: Tempelkan kode yang sudah Anda salin ke dalam file tersebut.
 
-Author
-[Ahnaf] - An-Af
+4. **Buka di Browser**: Buka file index.html dengan browser pilihan Anda (seperti Chrome, Firefox, atau Edge).
+
+### Teknologi yang Digunakan
+
+1. HTML5: Untuk struktur dasar halaman.
+
+2. CSS3: Untuk gaya, tata letak, dan efek visual.
+
+3. Javascript : Untuk trigger animasi dan validasi
+
+
+Dibangun oleh : Ahnaf Fattah / An-Af
