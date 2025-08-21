@@ -33,7 +33,7 @@
 
 body {
     /* font-family: "Norse", sans-serif; */
-    font-family: "Zain", sans-serif;
+
     background-color: var(--alabaster);
 }
 
@@ -132,4 +132,67 @@ section:nth-child(2) .form-login h2 {
     color: #344E41;
 }
 
-section:nth-child(2) .form-login form {}
+section:nth-child(2) .form-login .forms {
+    margin-right: 3rem;
+}
+
+section:nth-child(2) .form-login .form-input {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+section:nth-child(2) .form-login .form-input .form {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+section:nth-child(2) .form-login .form-input .form label {
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.2rem;
+
+}
+
+section:nth-child(2) .form-login .form-input .form input[type="text"] {
+    width: 13vw;
+    border: 1px solid #344E41;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+section:nth-child(2) .form-login .form-input .form input[type="password"] {
+    width: 13vw;
+    border: 1px solid #344E41;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+section:nth-child(2) .form-login .form-input .form input[type="number"] {
+    width: 13vw;
+    border: 1px solid #344E41;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+section:nth-child(2) .form-login .form-input .form input[type="email"] {
+    width: 13vw;
+    border: 1px solid #344E41;
+    padding: 0.4rem;
+    border-radius: 3px;
+
+}
+
+
+section:nth-child(2) .form-login input[type="submit"] {
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    background-color: #344E41;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 8vw;
+    margin: 1rem 0.6rem;
+    padding: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+}
